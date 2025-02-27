@@ -1,6 +1,5 @@
 import { VENDOR_URL } from "../constants";
 import { apiSlice } from "./apiSlice";
-
 export const vendorApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getAllBanners: builder.query({
@@ -11,5 +10,4 @@ export const vendorApiSlice = apiSlice.injectEndpoints({
     }),
   }),
 });
-
 export const { useGetAllBannersQuery } = vendorApiSlice;
