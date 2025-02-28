@@ -40,7 +40,6 @@ const PaymentScreen = () => {
             <Form.Label className="fw-semibold mb-2">
               Select Payment Method
             </Form.Label>
-
             {/* ✅ Fixed Radio Button Inside Border */}
             <Col className="d-flex flex-column">
               <div className="p-3 border rounded bg-light shadow-sm my-2 d-flex align-items-center">
@@ -59,13 +58,11 @@ const PaymentScreen = () => {
               </div>
             </Col>
           </Form.Group>
-
           {/* Submit Button */}
           <Button
             type="submit"
             variant="primary"
-            className="w-100 py-3 mt-3 fw-bold shadow-sm"
-          >
+            className="w-100 py-3 mt-3 fw-bold shadow-sm">
             Continue
           </Button>
         </Form>
